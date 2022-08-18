@@ -1,3 +1,5 @@
+Multiple fragments in the app will access the shared ViewModel using their activity scope.
+
 Cupcake app
 =================================
 
