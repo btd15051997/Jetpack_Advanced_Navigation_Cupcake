@@ -56,7 +56,8 @@ class SummaryFragment : Fragment() {
             //Use with DataBinding
             viewModel = sharedViewModel
             lifecycleOwner = viewLifecycleOwner
-            sendButton.setOnClickListener { sendOrder() }
+            summaryFragment = this@SummaryFragment
+//            sendButton.setOnClickListener { sendOrder() }
         }
     }
 
